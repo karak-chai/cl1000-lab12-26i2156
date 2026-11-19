@@ -1,0 +1,84 @@
+body {
+	background-color: #16173d;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: #393c96;
+}
+#planner {
+	max-width: 900px;
+	margin: 0 auto;
+	padding 20px;
+}
+#profile {
+	width: 320px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #babcff;
+	border: 2px solid #6366cf;
+	border-radius: 12px;
+	text-align: center;
+}
+.avatar {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.week {
+	display: flex;
+	gap: 15px;
+	border: 2px dashed #6366cf;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.day {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	background-color: #787bde;
+	color: #393c96;
+	padding: 15px;
+	border: 2px solid #6366cf;
+	border-radius: 8px;
+	text-align: center;
+}
+
+
+.slot-lecture {
+	background-color: lightblue;
+	color: #1b85b3;
+  	padding: 12px;
+  	border-radius: 6px;
+  	font-weight: bold;
+	border: 2px solid #1b85b3;
+	border-radius: 8px;
+}
+.slot-lab {
+	background-color: lightgreen;
+	color: #1c7813;
+  	padding: 12px;
+  	border-radius: 6px;
+  	font-weight: bold;
+	border: 2px solid #1c7813;
+	border-radius: 8px;
+}
+.personal {
+	background-color: lightpink;
+	color: #a61451;
+  	padding: 12px;
+  	border-radius: 6px;
+  	font-weight: bold;
+	border: 2px solid #a61451;
+	border-radius: 8px;
+}
+
+#goal {
+	background-color: lightpink;
+	color: #a61451;
+  	padding: 12px;
+  	border-radius: 6px;
+  	font-weight: bold;
+	border: 2px dashed #a61451;
+	border-radius: 8px;
+}
